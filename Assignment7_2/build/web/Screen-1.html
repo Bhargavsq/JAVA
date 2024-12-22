@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <h1 align="center">Screen 1</h1>
+    <h2 align="center">Food Items</h2>
+    <form align="center" method="POST" action="ItemServlet">
+        <input type="hidden" name="screen" value="screen1"/>
+        <input type="checkbox" name="a" value="spmix">Sprout Mix 
+        <input type="text" name="txt_spmix" value="0"  ><br/><br/>
+         <input type="checkbox" name="a" value="mugpulav">Mug Pulav
+         <input type="text" name="txt_mugpulav" value="0" ><br/><br/>
+         <input type="checkbox" name="a" value="fruitdish">Fruit Dish 
+         <input type="text" name="txt_fruitdish" value="0" ><br/><br/>
+         <input type="checkbox" name="a" value="saladbowl">Salad Bowl
+         <input type="text" name="txt_saladbowl" value="0" ><br/><br/>
+         <input align="center" type="submit" name="Goto Screen -2" value="Goto Screen -2"><br/><br/>
+        <input align="center" type="reset" name="reset" value="Reset">
+    </form>
+    
+</body>
+</html>
